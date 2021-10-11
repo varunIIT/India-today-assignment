@@ -7,4 +7,6 @@ route.get('/horoscope-list', homeScreen.horoscopeList)
 route.get('/astrologer-details',homeScreen.astroDetails)
 route.get('/reports',homeScreen.reports)
 route.get('/question-categories',homeScreen.questions)
+route.post('/coustomer-feedback',homeScreen.feedback)
+
 module.exports=route

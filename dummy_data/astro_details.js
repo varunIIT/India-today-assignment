@@ -16,7 +16,7 @@ module.exports={
     "isAvailable":true,
     "rating":null,
     "skills":[
-       "first skill","second skill"
+        "vastu","palmistry"
     ],
     "isOnCall":false,
     "images":{
