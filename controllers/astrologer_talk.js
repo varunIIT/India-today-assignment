@@ -45,3 +45,15 @@ module.exports.filter_astro=(req,res)=>{
         console.log(err)
     }
 }
+module.exports.sort=(req,res)=>{
+    try{
+        let astrologers=require('../dummy_data/astro_details')
+        astrologers.sort(function(a, b) {
+            return parseFloat(a.additionalPerMinuteCharges) - parseFloat(b.additionalPerMinuteCharges);
+        });
+        res.status(200).json(astrologers)
+    }
+    catch(err){
+        console.log(err);
+    }
+}

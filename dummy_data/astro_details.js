@@ -12,7 +12,7 @@ module.exports=[{
     ],
     "minimumCallDuration":5,
     "minimumCallDurationCharges":50.0,
-    "additionalPerMinuteCharges":10.0,
+    "additionalPerMinuteCharges":20.0,
     "isAvailable":true,
     "rating":null,
     "skills":[
@@ -58,7 +58,7 @@ module.exports=[{
     ],
     "minimumCallDuration":5,
     "minimumCallDurationCharges":50.0,
-    "additionalPerMinuteCharges":10.0,
+    "additionalPerMinuteCharges":15.0,
     "isAvailable":true,
     "rating":null,
     "skills":[
