@@ -5,9 +5,7 @@ const port=4545;
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
-app.get('/',(req,res)=>{
-    res.send("hello")
-})
+app.use('/',require('./routes/index'))
 app.listen(port,()=>{
     console.log(`listening at http://localhost:${port}`);
 })
